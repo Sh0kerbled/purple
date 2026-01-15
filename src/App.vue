@@ -1,12 +1,9 @@
 <script setup>
-import Navigation from './components/Navigation.vue';
+import Navigation from "./components/Navigation.vue";
 </script>
 
-<template>
-  <Navigation/>
-
+<template class="">
+  <Navigation />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
