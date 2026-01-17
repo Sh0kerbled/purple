@@ -33,7 +33,7 @@ import MainPage from "../assets/MainPage.vue";
       </div>
     </div>
     <div
-      class="w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0_0_1500px_rgba(140,69,255,.90)]"
+      class="w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0px_0px_1500px_rgba(140,69,255,.90)]"
     >
       <MainPage />
     </div>
