@@ -31,7 +31,7 @@ import dropdownicon from "../assets/DropdownIcon.vue";
         class="flex justify-center items-center text-white border border-[white]/40 bg-[#8C45FF]/40 rounded-lg shadow-[inset_0_0_10px_#8C45FF] py-0.5 px-3.75"
         href="#"
       >
-        Join waitlist
+        Download
       </a>
     </div>
   </div>

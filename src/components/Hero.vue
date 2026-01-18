@@ -1,4 +1,5 @@
 <script setup>
+import Blur from "../assets/Blur.vue";
 import MainPage from "../assets/MainPage.vue";
 </script>
 
@@ -33,9 +34,10 @@ import MainPage from "../assets/MainPage.vue";
       </div>
     </div>
     <div
-      class="w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0px_0px_1500px_rgba(140,69,255,.90)]"
+      class="w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0_-120px_1500px_rgba(140,69,255,.90)]"
     >
       <MainPage />
+      <Blur class="absolute left-1/2 -translate-x-1/2 mt-84" />
     </div>
   </div>
 </template>
