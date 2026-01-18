@@ -2,6 +2,7 @@
 import SeoVisual from "../assets/SeoVisual.vue";
 import Game from "../assets/Game.vue";
 import Purple from "../assets/Purple.vue";
+import Triangle from "../assets/Triangle.vue";
 </script>
 
 <template>
@@ -55,11 +56,11 @@ import Purple from "../assets/Purple.vue";
       <div
         class="flex flex-wrap items-center justify-center w-86.5 h-100 border-white/15 rounded-xl border"
       >
-        <SeoVisual />
+        <Triangle />
         <div class="text-white text-[16px] w-64.75">
-          SEO goal setting
+          Smart Keyword Generator
           <p class="text-white/70">
-            Helps you set and achieve SEO goals with guided assistance.
+            Automatic suggestions and the best keywords to target.
           </p>
         </div>
       </div>
