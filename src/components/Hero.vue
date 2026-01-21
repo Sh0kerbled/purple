@@ -1,6 +1,17 @@
 <script setup>
 import Blur from "../assets/Blur.vue";
 import MainPage from "../assets/MainPage.vue";
+
+const emit = defineEmits({
+  downloadSoft(payload) {
+    console.log(`Валидация ${payload ? true : false}`);
+    return payload;
+  },
+});
+
+function call() {
+  emit("downloadSoft", "Загружаем");
+}
 </script>
 
 <template>
@@ -30,7 +41,9 @@ import MainPage from "../assets/MainPage.vue";
         Maximize your playtime effortlessly with our powerful hour boosting app
       </div>
       <div class="border border-white/15 p-2 rounded-xl mt-4 mb-8 z-20">
-        <button class="bg-white px-4 py-2 rounded-lg z-30">Download</button>
+        <button class="bg-white px-4 py-2 rounded-lg z-30" @click="call()">
+          Download
+        </button>
       </div>
     </div>
     <div

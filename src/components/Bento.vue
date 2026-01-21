@@ -7,11 +7,11 @@ import Triangle from "../assets/Triangle.vue";
 
 <template>
   <div class="grid justify-center text-white text-[32px]">
-    <div class="w-138.25 text-center">
+    <div class="w-138.25 text-center mx-auto">
       Harness our powerful tool, making hour boosting intuitive and effective
       for all skill levels.
     </div>
-    <div class="flex gap-2.5">
+    <div class="flex gap-2.5 pt-8">
       <div
         class="flex flex-wrap items-center justify-center w-86.5 h-100 border-white/15 rounded-xl border"
       >
