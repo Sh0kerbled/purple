@@ -7,12 +7,15 @@ import Triangle from "../assets/Triangle.vue";
 
 <template>
   <div class="grid justify-center text-white text-[32px]">
-    <div class="w-138.25 text-center mx-auto">
+    <div class="w-138.25 text-center mx-auto" data-aos="fade-down">
       Harness our powerful tool, making hour boosting intuitive and effective
       for all skill levels.
     </div>
     <div class="flex gap-2.5 pt-8">
       <div
+        data-aos="fade-right"
+        data-aos-delay="800"
+        data-aos-duration="1000"
         class="flex flex-wrap items-center justify-center w-86.5 h-100 border-white/15 rounded-xl border"
       >
         <SeoVisual />
@@ -24,6 +27,9 @@ import Triangle from "../assets/Triangle.vue";
         </div>
       </div>
       <div
+        data-aos="fade-left"
+        data-aos-delay="900"
+        data-aos-duration="1000"
         class="flex flex-wrap w-186 h-100 shadow-[inset_0_-220px_260px_-80px_rgba(54,23,100,1)]"
       >
         <Game class="ml-auto mt-auto" />
@@ -40,6 +46,9 @@ import Triangle from "../assets/Triangle.vue";
     </div>
     <div class="flex gap-2.5 mt-7.75">
       <div
+        data-aos="fade-right"
+        data-aos-delay="1000"
+        data-aos-duration="1000"
         class="flex flex-wrap w-186 h-100 shadow-[inset_0_-220px_260px_-80px_rgba(54,23,100,1)]"
       >
         <Game class="ml-auto mt-auto" />
@@ -54,6 +63,9 @@ import Triangle from "../assets/Triangle.vue";
         </div>
       </div>
       <div
+        data-aos="fade-left"
+        data-aos-delay="1100"
+        data-aos-duration="1000"
         class="flex flex-wrap items-center justify-center w-86.5 h-100 border-white/15 rounded-xl border"
       >
         <Triangle />

@@ -3,7 +3,11 @@ import dropdownicon from "../assets/DropdownIcon.vue";
 </script>
 
 <template>
-  <div class="flex justify-center items-center my-3.25">
+  <div
+    class="flex justify-center items-center my-3.25"
+    data-aos="fade-down"
+    data-aos-duration="1000"
+  >
     <div>
       <a href="#">
         <img

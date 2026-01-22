@@ -10,7 +10,7 @@ function download(file) {
 }
 </script>
 
-<template class="scroll-smooth">
+<template class="scroll-smooth overflow-x-hidden">
   <Navigation />
   <Hero @download-soft="download" />
   <Companies />

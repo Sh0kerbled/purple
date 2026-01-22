@@ -15,9 +15,13 @@ function call() {
 </script>
 
 <template>
-  <div class="w-full border border-t-white/15 grid justify-items-center">
+  <div
+    class="w-full border border-t-white/15 grid justify-items-center overflow-x-hidden"
+  >
     <div
       class="inline-flex border border-white/15 gap-2 px-4 py-2 rounded-[50px] mt-22.5 mb-3.5"
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       <div
         class="border border-none bg-[#9855FF] px-1.5 font-bold rounded-[40px]"
@@ -28,7 +32,12 @@ function call() {
         Latest integration just arrived
       </div>
     </div>
-    <div class="w-146.5 grid justify-items-center">
+    <div
+      class="w-146.5 grid justify-items-center z-30"
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-duration="1000"
+    >
       <div class="text-[76px] leading-18.5 font-bold text-white text-center">
         Boost your
         <p
@@ -47,10 +56,14 @@ function call() {
       </div>
     </div>
     <div
-      class="w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0_-120px_1500px_rgba(140,69,255,.90)]"
+      class="relative overflow-hidden w-280 h-160 bg-white/10 rounded-[30px] flex justify-center inset-0 shadow-[0_-120px_1500px_rgba(140,69,255,.90)] z-0"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-delay="500"
+      data-aos-duration="1000"
     >
-      <MainPage />
-      <Blur class="absolute left-1/2 -translate-x-1/2 mt-84" />
+      <MainPage class="relative z-0" />
+      <Blur class="absolute left-1/2 -translate-x-1/2 z-10 bottom-0" />
     </div>
   </div>
 </template>

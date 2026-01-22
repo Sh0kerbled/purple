@@ -23,3 +23,8 @@
 ::-webkit-scrollbar-thumb {
     max-height: 200px;
 }
+
+html,
+body {
+    overflow-x: hidden;
+}
