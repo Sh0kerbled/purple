@@ -3,6 +3,7 @@ import Blur from "../assets/Blur.vue";
 </script>
 
 <template>
+  <Blur class="absolute left-1/2 -translate-x-1/2 z-10" />
   <div class="relative w-full h-125 bg-[#020103] z-40">
     <div class="flex justify-center pt-14.5 text-white/70 z-50">
       Trusted by the world’s most innovative teams

@@ -62,8 +62,7 @@ function call() {
       data-aos-delay="500"
       data-aos-duration="1000"
     >
-      <MainPage class="relative z-0" />
-      <Blur class="absolute left-1/2 -translate-x-1/2 z-10 bottom-0" />
+      <MainPage class="relative z-0 max-h-full overflow-y-hidden" />
     </div>
   </div>
 </template>

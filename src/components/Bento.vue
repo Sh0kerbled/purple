@@ -28,7 +28,7 @@ import Triangle from "../assets/Triangle.vue";
       </div>
       <div
         data-aos="fade-left"
-        data-aos-delay="900"
+        data-aos-delay="1500"
         data-aos-duration="1000"
         class="flex flex-wrap w-186 h-100 shadow-[inset_0_-220px_260px_-80px_rgba(54,23,100,1)]"
       >
@@ -64,7 +64,7 @@ import Triangle from "../assets/Triangle.vue";
       </div>
       <div
         data-aos="fade-left"
-        data-aos-delay="1100"
+        data-aos-delay="1800"
         data-aos-duration="1000"
         class="flex flex-wrap items-center justify-center w-86.5 h-100 border-white/15 rounded-xl border"
       >
